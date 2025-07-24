@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #000;
+    text-align: left;
+    background-color: #f5f5f5;
+}
+
+header,
+footer {
+    background-color: lightgreen;
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .flex-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+h1 {
+    font-size: 60px;
+    margin-bottom: auto;
+}
+
+header .flex-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+header .flex-list li {
+    margin: 0 20px;
+}
+
+.p_header,
+.s_header,
+.l_header,
+.c_header,
+.a_header {
+    border-bottom: #000000 solid 1px;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+#profile,
+#skill,
+#license,
+#contact,
+#works {
+    border: 1px solid #000000;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 40px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.skill-tables {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skill-tables table {
+    border-collapse: collapse;
+    min-width: 300px;
+}
+
+.skill-tables th,
+.skill-tables td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.license-list {
+    list-style: none;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-caption {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-caption-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-caption-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-caption-url .url-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card-caption-url .url-link:hover {
+    text-decoration: underline;
+}

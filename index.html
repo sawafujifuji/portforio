@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>ポートフォリオ</title>
+</head>
+
+<body>
+    <header>
+        <h1>portforio</h1>
+        <nav>
+            <ul class="flex-list">
+                <li><a href="#profile">profile</a></li>
+                <li><a href="#skill">skill</a></li>
+                <li><a href="#works">works</a></li>
+                <li><a href="#license">license</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="profile">
+        <h2 class="p_header">profile</h2>
+        <p>
+            初めまして！平成16年生まれ、現在21歳の澤藤桜太と申します。現在はMCL盛岡情報ビジネス＆デザイン専門学校に在籍しています。
+            学校ではPython、Java、C#など様々な言語を幅広く学んでいます。趣味は音楽鑑賞で最近よく聞くのはKing Gnu、Vaundy、YOASOBI、
+            ずっと真夜中でいいのになどかなり幅広いジャンルを聴いています。また、出身が岩手県で今まであまり県外に出たことが無かったので
+            今後は旅行を沢山して趣味にしたいなと考えています。
+        </p>
+    </div>
+
+    <div id="skill">
+        <h2 class="s_header">skill</h2>
+        <div class="skill-tables">
+            <table>
+                <tr>
+                    <th>言語</th>
+                    <th>レベル</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td><meter min="1" max="5" value="4"></meter></td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td><meter min="1" max="5" value="4"></meter></td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td><meter min="1" max="5" value="2"></meter></td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td><meter min="1" max="5" value="5"></meter></td>
+                </tr>
+            </table>
+            <table id="table_design">
+                <tr>
+                    <td>Java</td>
+                    <td><meter min="1" max="5" value="3"></meter></td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td><meter min="1" max="5" value="3"></meter></td>
+                </tr>
+                <tr>
+                    <td>Unity</td>
+                    <td><meter min="1" max="5" value="2"></meter></td>
+                </tr>
+                <tr>
+                    <td>MySQL</td>
+                    <td><meter min="1" max="5" value="3"></meter></td>
+                </tr>
+            </table>
+            <p>一番得意なのはPythonで一番今力を入れているのはJavaです。Pythonではtkinterを使ったアプリケーション制作やdjangoを使った
+                Webアプリケーション制作を学びました。Javaはまだ基礎しか学んでいませんが、今後JavaFXを使ったGUIアプリケーション制作など
+                を学んでいきたいと思っております。</p>
+        </div>
+    </div>
+
+    <section id="works">
+        <h2 class="a_header">works</h2>
+        <div class="card-wrapper">
+            <figure class="card">
+                <img class="card-image" src="img/works/thumb/portfolio.png" alt="" />
+                <figcaption class="card-caption">
+                    <p class="card-caption-title">券売機システムのCUIアプリ</p>
+                    <p class="card-caption-info">CUIで動く券売機アプリをチームで開発しました</p>
+                    <p class="card-caption-url"><a class="url-link" href="https://github.com/maca-11/CUI_vending_machie"
+                            target="_blank">git hub</a></p>
+                </figcaption>
+            </figure>
+
+            <figure class="card">
+                <img class="card-image" src="" alt="" />
+                <figcaption class="card-caption">
+                    <p class="card-caption-title">予約管理システム</p>
+                    <p class="card-caption-info">ホテルで用いる予約管理システムをチームで開発しました</p>
+                    <p class="card-caption-url"><a class="url-link"
+                            href="https://github.com/2025-spring-scrum-development-lecture/spring-lecture-pms-development-takahashi"
+                            target="_blank">git hub</a></p>
+                </figcaption>
+            </figure>
+
+            <figure class="card">
+                <img class="card-image" src="" alt="" />
+                <figcaption class="card-caption">
+                    <p class="card-caption-title">ポートフォリオ</p>
+                    <p class="card-caption-info">自分自身のポートフォリオです</p>
+                    <p class="card-caption-url"><a class="url-link" href="" target="_blank">git hub</a></p>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+
+    <div id="license">
+        <h2 class="l_header">License</h2>
+        <ul class="license-list">
+            <li>2023年3月　第一種普通自動車免許(AT限定)</li>
+            <li>2024年11月　基本情報技術者試験</li>
+            <li>2025年1月　Pythonプログラミング能力認定試験 3級</li>
+        </ul>
+    </div>
+
+    <div id="contact">
+        <h2 class="c_header">contact</h2>
+        <h3>o.sawafuji.sys24@morijyobi.ac.jp</h3>
+    </div>
+
+    <footer>
+        <ul class="flex-list">
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="#license">license</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
